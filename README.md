@@ -1,4 +1,4 @@
-# Game Time Starter Kit
+# Pocket Kritters Go
 
 To install the dependencies:
 
