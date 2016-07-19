@@ -1,0 +1,68 @@
+html {
+   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+ }
+
+.top-margin{
+  padding-top: 5%;
+}
+
+#ball {
+  width: 40%;
+  text-align: center;
+}
+
+#start-button {
+  margin-top: 5%;
+}
+
+.main-container {
+  background: blue;
+}
+
+#empty-heart {
+  display: none;
+}
+
+#nyan-cat-image {
+  display: none;
+}
+
+#start-screen{
+  text-align: center;
+  margin: auto;
+  background-image: url("images/background.jpg");
+  color: white;
+  width: 670px;
+  height: 500px;
+}
+
+#game-over-screen{
+  text-align: center;
+  margin: auto;
+  background-image: url("images/background.jpg");
+  color: white;
+  width: 670px;
+  height: 500px;
+  display: none;
+  margin-top: 22px;
+}
+
+.highlight {
+  background-color: #003466;
+}
+
+p {
+  font-size: 17px;
+}
+
+#canvas-elements{
+  position:relative;
+  width:670px;
+  height:500px;
+  margin-top: 22px;
+  display: none;
+}
+
+.subcanvs{
+  position: absolute;
+}

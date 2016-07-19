@@ -2,9 +2,25 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Game Time</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+  <title>Pocket Kritters Go</title>
 </head>
 <body>
+  <audio autoplay loop>
+  <source src="audio/opening.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <div class="container center-align main-container">
+    <div id="start-screen" class="center-align start-screen">
+      <h3 class="center-align top-margin">Pocket Kritters Go</h3>
+      <p>Katch all of the 'em!</p>
+      <img id="ball" src= "images/pocketball.png">
+      <br>
+      <input id="start-button", class="btn red", type="button", value="start game!"/>
+    </div>
+  </div>
 
   <script src="main.bundle.js"></script>
 </body>
